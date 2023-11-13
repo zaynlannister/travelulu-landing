@@ -1,10 +1,12 @@
+import HeaderSection from "./components/Header/HeaderSection";
+
 const App = () => {
   return (
-    <div className="header">
-      <div className="header-container">
-        <p>some text</p>
+    <>
+      <div>
+        <HeaderSection />
       </div>
-    </div>
+    </>
   );
 };
 
