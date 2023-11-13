@@ -5,6 +5,7 @@ export default {
     colors: {
       default: "#5F2EEA",
       dark: "#2A00A2",
+      line: "#D9DBE9",
     },
   },
   plugins: [],
