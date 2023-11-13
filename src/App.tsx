@@ -1,3 +1,4 @@
+import CommentsSection from "./components/Comments/CommentsSection";
 import FeatureSection from "./components/Feature/FeatureSection";
 import HeaderSection from "./components/Header/HeaderSection";
 import ToolList from "./components/ToolList/ToolList";
@@ -13,6 +14,9 @@ const App = () => {
       </div>
       <div className="container">
         <ToolList />
+      </div>
+      <div className="container">
+        <CommentsSection />
       </div>
     </>
   );
