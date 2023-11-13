@@ -49,7 +49,7 @@ const HeaderSection = () => {
           <p className="text-[50px] header-text font-bold w-[500px]">
             Plan your next big trip overseas.
           </p>
-          <div className="flex gap-6 mt-4">
+          <div className="flex gap-6 mt-4 header-content__buttons">
             <button className="default-button">Begin plans</button>
             <button className="default-button">Review plans</button>
           </div>
@@ -64,6 +64,11 @@ const StyledHeaderSection = styled.div`
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
+
+  .header {
+    border-bottom: 1px solid #d9dbe9;
+    transition: 200ms all;
+  }
 
   @media (max-width: 780px) {
     .header-nav {
@@ -83,6 +88,13 @@ const StyledHeaderSection = styled.div`
 
     background-size: cover;
     background-image: url("/assets/img/Boarding-mob.png");
+  }
+
+  @media (max-width: 580px) {
+    .header-content__buttons {
+      margin-top: 40px;
+      flex-direction: column;
+    }
   }
 `;
 

@@ -30,11 +30,6 @@ body.menu-open {
   padding: 10px 20px;
 }
 
-.header {
-  border-bottom: 1px solid silver;
-  transition: 200ms all;
-}
-
 body.menu-open .header {
   background-color: #2a00a2;
 }
