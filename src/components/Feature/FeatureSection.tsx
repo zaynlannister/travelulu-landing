@@ -48,7 +48,7 @@ const FeatureSection = () => {
 
 const StyledFeature = styled.div`
   @media (max-width: 1120px) {
-    margin-top: 80px;
+    margin: 80px auto;
     flex-wrap: wrap;
     .feature-block {
       width: 100%;
